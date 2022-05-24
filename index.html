@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js" defer></script>
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="task-creation-form" id="taskCreationForm">
+        <input
+          type="text"
+          name="task-input"
+          id="taskInput"
+          placeholder="Enter the task here..."
+        />
+        <button class="add-task" type="submit" id="addTask">Add</button>
+      </div>
+      <div class="task-toggle">
+        <p class="status-text">In-Progress</p>
+        <i class="fa fa-tasks" data-status-icon title="In-progress Tasks"></i>
+        <label class="task-toggle-button">
+          <input type="checkbox" name="task-status" id="taskStatus" />
+          <span class="slider"></span>
+        </label>
+        <p class="status-text">Completed</p>
+        <i class="fa fa-th-list" data-status-icon title="Completed Tasks"></i>
+      </div>
+      <ul class="tasks" id="tasks">
+        <!-- <p class="empty-tasks">Please add todo...</p> -->
+        <!-- <li
+          class="task not-completed"
+          data-status="not-completed"
+          data-task-id=""
+        >
+          Buy Earphone
+          <div class="task-action-buttons">
+            <i class="fa fa-check-circle task-completed"></i>
+            <i class="fa fa-trash task-delete"></i>
+          </div>
+        </li>
+        <li class="task completed" data-status="completed" data-task-id="">
+          Read newspaper
+          <div class="task-action-buttons">
+            <i class="fa fa-trash task-delete"></i>
+          </div>
+        </li>
+        <li class="task completed" data-status="completed" data-task-id="123">
+          Buy Apples
+          <div class="task-action-buttons">
+            <i class="fa fa-trash task-delete"></i>
+          </div>
+        </li>
+        <li
+          class="task not-completed"
+          data-status="not-completed"
+          data-task-id=""
+        >
+          Eat Apples
+          <div class="task-action-buttons">
+            <i class="fa fa-check-circle task-completed"></i>
+            <i class="fa fa-trash task-delete"></i>
+          </div>
+        </li>
+        <li
+          class="task not-completed"
+          data-status="not-completed"
+          data-task-id=""
+        >
+          Play Clash of clans
+          <div class="task-action-buttons">
+            <i class="fa fa-check-circle task-completed"></i>
+            <i class="fa fa-trash task-delete"></i>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+</html>
